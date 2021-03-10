@@ -12,6 +12,9 @@ app.get('/', (req,res)=>{
 app.get('/upload', (req,res) => {
     res.render("upload.hbs");
 });
+app.post('/upload',(req,res)=>{
+    
+})
 
 app.use('/public',express.static('public'));
 
