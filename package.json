@@ -1,0 +1,28 @@
+{
+  "name": "photo-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groomyjohny/Photo-Gallery.git"
+  },
+  "author": "groomyjohny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/groomyjohny/Photo-Gallery/issues"
+  },
+  "homepage": "https://github.com/groomyjohny/Photo-Gallery#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "console-stamp": "^0.2.9",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mysql2": "^2.2.5",
+    "uuid": "^8.3.2"
+  }
+}
