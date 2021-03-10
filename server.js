@@ -1,5 +1,6 @@
 const mysql = require('mysql2/promise');
 const express = require('express');
+const { v4: uuidv4 } = require('uuid');
 require('console-stamp')(console, 'dd.mm.yyyy HH:MM:ss.l');
 
 const port = 8082;
