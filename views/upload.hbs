@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <form method="POST" name="upload">
+    <form method="POST" name="upload" enctype="multipart/form-data">
         <div><input name="name"></div>
-        <div><input type="file" name="files[]"></div>
+        <div><input type="file" name="files[]" multiple></div>
+        <div><input type="submit"></div>
     </form>
 </body>
